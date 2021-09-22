@@ -1,0 +1,100 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4vw;
+  overflow: hidden;
+}
+
+@media (min-width: 500px) {
+}
+
+.form {
+  align-content: center;
+  /* background-color: rgba(129, 27, 116, 0.5); */
+  /* width: 500px; */
+}
+
+.content{
+  background: url(../assets/img/fundo.jpg);
+  background-size: cover;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+#logo {
+  background-image: url(../assets/img/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40vh;
+  /* width: 10vw; */
+}
+
+.label {
+  color: #FFF;
+  margin: 5vw 0vw 5vw 0vw;
+  text-align: center;
+}
+
+.labelb{
+  text-align: center;
+}
+.labelb :link {
+  color: #00E0F2;
+  font-size: 3vw;
+  text-align: center;
+  text-decoration: none;
+}
+.labelb :visited {
+  color: #00E0F2;
+  font-size: 3vw;
+  text-align: center;
+  text-decoration: none;
+}
+
+.logo{
+  width: 60vw;
+}
+
+.mail {
+  padding: 3vw;
+  border-radius: 5vw 0px 0px 5vw;
+  border: none;
+  width: 50vw;
+  margin-left: 7vw;
+}
+
+.um {
+  /* width: 15px; */
+  border-radius: 50%;
+  width: 4.5vw;
+  border: none;
+  margin-top: 3vw;
+  margin-right: 3vw;
+  background-color: #C4C4C4;
+}
+
+.input {
+  /* background-color: #F00; */
+  width: fit-content;
+}
+
+.enviar {
+  padding: 0.3vw;
+  background-color: #FFF;
+  border-radius: 0px 5vw 5vw 0px;
+  width: 17px;
+  border: none;
+  /* background-color: aqua; */
+  width: fit-content;
+  margin-right: 3vw;
+  margin-left: -1vw;
+}
+
+.send {
+  display: inline-flex;
+}

@@ -1,5 +1,5 @@
 <div style="background-color: #000; align-itens: center; justify-content: center; text-align: center;">
-<img src="/Users/tonmarcondes/ieq/cultoReconnect/src/assets/img/logo.png" alt="logo" style="zoom:15%;" />  
+<img src="src/assets/img/logo.png" alt="logo" style="zoom:15%;" />  
 </div>
 
 

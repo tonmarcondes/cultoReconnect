@@ -4,6 +4,7 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 4vw;
   overflow: hidden;
+  outline: transparent;
 }
 
 @media (min-width: 500px) {
@@ -20,9 +21,9 @@
   background-size: cover;
   align-items: center;
   height: 100vh;
-  width: 100%;
+  /* width: 100%; */
   display: flex;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 #logo {
@@ -31,12 +32,11 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 40vh;
-  /* width: 10vw; */
 }
 
 .label {
   color: #FFF;
-  margin: 5vw 0vw 5vw 0vw;
+  margin: 3vh 0vh 3vh 0vh;
   text-align: center;
 }
 
@@ -55,20 +55,27 @@
   text-align: center;
   text-decoration: none;
 }
+.labelb :active {
+  color: #00E0F2;
+  text-shadow: turquoise 5px 5px 20px;
+  font-size: 3vw;
+  text-align: center;
+  text-decoration: none;
+}
 
 .logo{
   width: 60vw;
 }
 
-.mail {
+#mail {
   padding: 3vw;
   border-radius: 5vw 0px 0px 5vw;
   border: none;
-  width: 50vw;
+  width: 70vw;
   margin-left: 7vw;
 }
 
-.um {
+#bt_enviar {
   /* width: 15px; */
   border-radius: 50%;
   width: 4.5vw;
@@ -78,7 +85,7 @@
   background-color: #C4C4C4;
 }
 
-.input {
+#input {
   /* background-color: #F00; */
   width: fit-content;
 }

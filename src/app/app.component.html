@@ -6,19 +6,21 @@
     <div class="label">VOCE TEM UMA SURPRESA ESPECIAL...</div>
 
     <div class="send">
-      <div class="input">
-        <input class="mail" type="text" placeholder="O mesmo email do Sympla">
+      <div class="id">
+        <input id="mail" type="email" placeholder="O mesmo email do Sympla" autofocus>
+        <!-- <input type="email" name="mail" id="mail"> -->
       </div>
 
       <div class="enviar">
-        <button class="um" onclick="surpresa()">➣</button>
+        <button id="bt_enviar" onclick="surpresa()">➣</button>
       </div>
     </div>
 
     <div class="label">INSIRA SEU EMAIL DE INSCRIÇÃO</div>
 
     <div class="labelb">
-      <a href="#">NÃO POSSUO EMAIL DE INSCRIÇÃO</a>
+      <a routerLink="/cadastro" routerLinkActive="active">NÃO POSSUO EMAIL DE INSCRIÇÃO</a>
     </div>
   </div>
 </div>
+

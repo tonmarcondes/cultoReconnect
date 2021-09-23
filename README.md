@@ -11,9 +11,9 @@
     - `cd cultoReconnect`
     - `npm install`
 
-2. [Iniciar a API](app-culto-regional#servidor-de-api)
-3. [Rodar o App](app-culto-regional#rodar-aplicação-pwa)
-4. [Gerar linlk externo](app-culto-regional#ngrok)
+2. [Iniciar a API](#servidor-de-api)
+3. [Rodar o App](#rodar-aplicação-pwa)
+4. [Gerar linlk externo](#ngrok)
 
 ## Servidor de API
 

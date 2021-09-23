@@ -1,5 +1,5 @@
 <div style="background-color: #000; align-itens: center; justify-content: center; text-align: center;">
-<img src="src/assets/img/logo.png" alt="logo" style="zoom:15%;" />  
+<img src="src/assets/img/favicon.png" alt="logo" style="zoom:15%;" />  
 </div>
 
 

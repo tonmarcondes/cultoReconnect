@@ -1,3 +1,4 @@
+import { LoginComponent } from './components/login/login.component';
 import { AppComponent } from './app.component';
 import { SplashComponent } from './components/splash/splash.component';
 import { MensagemComponent } from './components/mensagem/mensagem.component';
@@ -11,7 +12,7 @@ import { FormsModule } from '@angular/forms';
 const routes: Routes = [
   {
     path: '',
-    component: AppComponent,
+    component: LoginComponent,
     data: { title: 'Pagina Inicial' }
   },
   {

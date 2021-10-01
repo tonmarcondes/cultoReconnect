@@ -1,3 +1,5 @@
+import { ParticipanteModel } from './../../models/participantes';
+import { ParticipanteService } from './../../api.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +9,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  participante : ParticipanteModel = new ParticipanteModel();
+  participantes : Array<any> = new Array();
 
-  ngOnInit(): void {
+  constructor(private participanteService: ParticipanteService) { }
+
+  ngOnInit() {
+    this.listarParticipantes()
+  }
+
+  cadastrar(){
+
+  }
+
+  listarParticipantes() {
+    this.participanteService.listarParticipantes().subscribe(participantes => {
+      this.participantes = participantes;
+    }, err => {
+      console.log('Erro ao listar participantes', err);
+    })
   }
 
 }

@@ -6,10 +6,33 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cadastro.component.css']
 })
 export class CadastroComponent implements OnInit {
+  cadastro = {
+    email: '',
+    apelido: '',
+    local: 'App'
+  };
 
-  constructor() { }
+  enviado = false;
+
+  // constructor(private participanteService: ParticipanteService) { }
 
   ngOnInit(): void {
   }
 
-}
+  cadastraPart(): void {
+    const dados = {
+      apelido: this.cadastro.apelido,
+      email: this.cadastro.email
+    };
+
+    // this.apiService.postPart(dados)
+      // .subscribe(
+        // response => {
+          // console.log(response);
+          this.enviado = true;
+        }
+      // )
+
+  }
+
+// }

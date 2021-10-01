@@ -1,5 +1,5 @@
 <div class="content">
-  <div class="form">
+  <div class="form form-group">
 
     <div id="logo"></div>
 
@@ -7,16 +7,35 @@
 
     <div class="send">
       <div class="id">
-        <input id="mail" type="email" placeholder="O mesmo email do Sympla" autofocus>
+        <input class="form-control" id="email" type="email" placeholder="O mesmo email do Sympla" autofocus [(ngModel)]="participante.email">
         <!-- <input type="email" name="mail" id="mail"> -->
       </div>
 
       <div class="enviar">
-        <button id="bt_enviar" onclick="surpresa()">➣</button>
+        <button id="bt_enviar" (click)="listarParticipantes">➣</button>
       </div>
     </div>
 
     <div class="label">INSIRA SEU EMAIL DE INSCRIÇÃO</div>
+
+    <!-- <div id="teste">
+      <table>
+        <tr>
+          <td>id#</td>
+          <td>Nome</td>
+          <td>email</td>
+          <td>Local</td>
+          <td>enviado</td>
+        </tr>
+        <tr *ngFor="let participante of participantes">
+          <td>{{ participante.id }}</td>
+          <td>{{ participante.apelido }}</td>
+          <td>{{ participante.email }}</td>
+          <td>{{ participante.local }}</td>
+          <td>{{ participante.enviado }}</td>
+        </tr>
+      </table>
+    </div> -->
 
     <div class="labelb">
       <a routerLink="/cadastro" routerLinkActive="active">NÃO POSSUO EMAIL DE INSCRIÇÃO</a>

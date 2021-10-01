@@ -1,7 +1,7 @@
-export interface ParticipanteModel {
-  "id": number,
-  "apelido": string,
-  "email": string,
-  "local": string,
-  "enviado": boolean
+export class ParticipanteModel {
+  id: Number;
+  apelido: string;
+  email: string;
+  local: string;
+  enviado: Boolean;
 }

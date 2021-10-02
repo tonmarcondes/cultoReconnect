@@ -26,4 +26,8 @@ export class ParticipanteService {
     console.log(email)
     return this.http.get<ParticipanteModel[]>('http://127.0.0.1:3000/participantes?email=' + email);
   }
+
+  cadastrarParticipante(participante: ParticipanteModel)  {
+    return this.http.post('http://localhost:3000/participantes/', participante);
+  }
 }

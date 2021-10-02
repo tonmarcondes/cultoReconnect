@@ -42,25 +42,27 @@
 
 .labelb{
   text-align: center;
+  color: #00E0F2 !important;
+  font-size: 3vw !important;
 }
 .labelb :link {
-  color: #00E0F2;
-  font-size: 3vw;
-  text-align: center;
-  text-decoration: none;
+  color: #00E0F2 !important;
+  font-size: 3vw !important;
+  text-align: center !important;
+  text-decoration: none !important;
 }
 .labelb :visited {
-  color: #00E0F2;
-  font-size: 3vw;
-  text-align: center;
-  text-decoration: none;
+  color: #00E0F2 !important;
+  font-size: 3vw !important;
+  text-align: center !important;
+  text-decoration: none !important;
 }
 .labelb :active {
-  color: #00E0F2;
-  text-shadow: turquoise 5px 5px 20px;
-  font-size: 3vw;
-  text-align: center;
-  text-decoration: none;
+  color: #00E0F2 !important;
+  text-shadow: turquoise 5px 5px 20px !important;
+  font-size: 3vw !important;
+  text-align: center !important;
+  text-decoration: none !important;
 }
 
 .logo{
@@ -72,7 +74,7 @@
   border-radius: 5vw 0px 0px 5vw;
   border: none;
   width: 70vw;
-  margin-left: 7vw;
+  /* margin-left: 7vw; */
 }
 
 #bt_enviar {

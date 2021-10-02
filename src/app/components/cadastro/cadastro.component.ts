@@ -19,7 +19,7 @@ export class CadastroComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  cadastraPart(): void {
+  cadastraParticipante(): void {
     const dados = {
       apelido: this.cadastro.apelido,
       email: this.cadastro.email

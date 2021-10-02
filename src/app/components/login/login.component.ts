@@ -1,3 +1,4 @@
+import { FormBuilder } from '@angular/forms';
 import { ParticipanteModel } from './../../models/participantes';
 import { ParticipanteService } from './../../api.service';
 import { Component, OnInit } from '@angular/core';
@@ -9,13 +10,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  participante : ParticipanteModel
+  participante : ParticipanteModel;
   participantesBD: Array<any> = new Array();
   participanteBD: ParticipanteModel;
   participantes : Array<any> = new Array();
 
-  constructor(private participanteService: ParticipanteService) { 
-    this.participante = new ParticipanteModel();
+  constructor(
+    private formBuider: FormBuilder,
+    private participanteService: ParticipanteService){
+      this.participante = new ParticipanteModel()
   }
 
   verificaParticipante(){

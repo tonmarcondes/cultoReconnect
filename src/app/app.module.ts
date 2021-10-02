@@ -1,5 +1,5 @@
 import { HttpClientJsonpModule, HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, FormBuilder } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -18,6 +18,7 @@ import { LoginComponent } from './components/login/login.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    FormBuilder,
     HttpClientModule,
     HttpClientJsonpModule,
     ServiceWorkerModule.register('ngsw-worker.js', {

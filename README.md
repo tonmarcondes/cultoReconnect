@@ -5,7 +5,7 @@
 
 # App culto Reconnect
 
-App PWA para o evento na Igreja do Evangelho Quadrangular de São Calos-SP a ser realizado pelo grupo de jovens no dia 02/10/2021. Este projeto está feito com uma APO em modo POC em JSON-SERVER. 
+App PWA para o evento na Igreja do Evangelho Quadrangular de São Calos-SP a ser realizado pelo grupo de jovens no dia 02/10/2021. Este projeto está feito com uma API em modo POC em JSON-SERVER. 
 **SINTA-SE A VONTADE PARA ALTERAR COMO QUISER**
 
 Tecnologias
@@ -15,7 +15,9 @@ Tecnologias
 ---
 
 ## Prints da PWA para dispositivos _Mobile_
-<img src="img/1.jpg" style="zoom:50%;" /> <img src="img/2.jpg" style="zoom:50%;" /> <img src="img/3.jpg" style="zoom:50%;" /> <img src="img/4.jpg" style="zoom:50%;" />
+<p align="center">
+ <img src="img/1.jpg" style="zoom:50%;" /> <img src="img/2.jpg" style="zoom:50%;" /> <img src="img/3.jpg" style="zoom:50%;" /> <img src="img/4.jpg" style="zoom:50%;" />
+ </p>
 
 ## Passos para iniciar os serviços
 
@@ -51,7 +53,7 @@ Tecnologias
 <a id="3"></a> 
 ## NGROK
 
-> libera a aplicação da rede interna para fora
+> libera a aplicação da rede interna para a internet através do [NGROK](https://ngrok.com/download)
 
 ```bash
 $ ./ngrok http 5000

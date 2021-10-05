@@ -53,7 +53,7 @@ Tecnologias
 <a id="3"></a> 
 ## NGROK
 
-> libera a aplicação da rede interna para a internet através do [NGROK](https://ngrok.com/download)
+> libera a aplicação da rede interna para a internet através do comando abaixo. [Baixar NGROK](https://ngrok.com/download)
 
 ```bash
 $ ./ngrok http 5000

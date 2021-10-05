@@ -1,6 +1,7 @@
 <p align="center">
-    <img src="src/assets/img/favicon.png" alt="logo" style="zoom:15%;" />
+    <img src="src/assets/img/favicon.png" alt="logo" style="zoom:40%;" />
 </p>
+
 
 # App culto Reconnect
 
@@ -14,7 +15,7 @@ Tecnologias
 ---
 
 ## Prints da PWA para dispositivos _Mobile_
-![](img/1.jpg)![](img/2.jpg)![](img/3.jpg)![](img/4.jpg)
+<img src="img/1.jpg" style="zoom:50%;" /> <img src="img/2.jpg" style="zoom:50%;" /> <img src="img/3.jpg" style="zoom:50%;" /> <img src="img/4.jpg" style="zoom:50%;" />
 
 ## Passos para iniciar os serviços
 
